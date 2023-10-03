@@ -1,1 +1,53 @@
+Arrays, sometimes called Lists, organize the dats sequentially i.e one after another in memory. Arrays have the smallest footprint in any Data Structure.
+
+### Array Operations
+
+**PUSH [Python - append]**
+
+array1.append(’e’) → Will append/add the element in last
+
+Here we are adding the element at the end, no looping involved and straight forward operation. Hence Time complexity - **O(1).** 
+
+**POP Operation**
+
+array1.pop() → Will remove last element 
+
+array1.pop(’Element1’) → Will remove all the values that is ‘Element1’
+
+array1.pop(1) → Will remove the element at index 1 in array
+
+Here we are removing the element at the end, no looping involved and straight forward operation. Hence Time complexity - **O(1).** 
+
+**Add element at custom position**
+
+To add an element on first position, we use insert method. 
+
+array1.insert(0 , ’ab’) → Here the element ‘ab’ will be inserted at position 0.
+
+Here we loop through entire array and shift each element to one position right.  Hence Time complexity → **O(n).**
+
+If we are inserting at middle of the array, then time complexity O(n/2), but as per rules, we will only consider **O(n).**
+
+Two types of arrays:
+
+- **Static Array:** It has fixed size, i.e we have to specify the size of the array to initializing the array.
+- **Dynamic Array:** It allows us to copy and rebuild an array in a different location location with more memory if we wanted.
+
+Here the push operation becomes O(n) from O(1) in case of dynamic array as while expanding the space, it actually loops over the array and copies it to a new location. Because looping is involved, it creates O(n). 
+
+In languages like JS and Python, the program automatically initializes an dynamic array.  
+
+In Interviews, Strings are to be treated as Arrays. Because Strings are Array of characters. 
+
+**When to use Arrays?** 
+
+- While **sorting**, as they are placed in memory in sequential order
+- Fast lookups
+- Ordered
+
+When NOT to use Arrays?
+
+- Slow Inserts
+- Slow Deletes
+- Fixed size (Is using static arrays)
 
