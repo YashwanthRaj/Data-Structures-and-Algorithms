@@ -1,5 +1,5 @@
 # Data-Structures-and-Algorithms
-Udemy course contents of course "Master the Coding Interview: Data Structures + Algorithms" by Andrei.
+Udemy course contents of course "Master the Coding Interview: Data Structures + Algorithms" by Andrei. We learn about different Data structures and Algorithms in Python Language. 
 
 1. Big O notation
 
