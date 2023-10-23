@@ -1,0 +1,14 @@
+Consider it as List. A List that has another list inside it. The inner list will have 2 value, one for key and another for value. The hash function decides the location where the value goes inside the memory. The hash function generates the location.   
+In python they are called Dictionaries. We have key value pairs. As a result, we have really fast data access. 
+**Idempotent -** Function, when given an input, will always return the same output.
+Because all the elements have a key, it is easier to access take less time. All operations take O(1) time.     
+
+**Operations:**
+insert(): Insert a new value in the data structure
+lookup(): Access the element
+delete(): delete a new value in the data structure
+search(): Search the element
+
+When the hash function assigns the memory location for the values, sometimes the diff values get the same memory location. This is called **collision**. 
+There is a possibility that multiple values get stored in same location, making it difficult to check the values. Collision slows down reading and writing. Hence it becomes O(n) Operation. There are many ways to deal with collision, one is using linked list
+Hence, depending on the hash function, occasionally there is a possibility that the lookup will take O(n) time rather than O(1). Which is a downside of this data structure. 
