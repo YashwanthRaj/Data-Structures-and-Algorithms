@@ -1,0 +1,21 @@
+List that is linked. Here each element has the value and a pointer that points to the next element [Singly Linked List]. 
+Null terminated → When the pointer leads to null, the list has come to an end, i.e last element. 
+Python does not have linked list.  
+
+### Singly Linked List
+Here the nodes are linked to next value. Traversal possible in only one direction.
+
+### Doubly Linked List
+Here the nodes have two pointers, one points to the next and other points to the previous node. 
+This allows us to travel in our list backwards as well. Downside is it takes more space than singly Linked List.
+
+### Comparision
+**Singly Linked List** - Used when memory is really scares. It implementation is simple. But if the pointer to head or node is lost, then the the data is lost in memory forever. Fast insertion and deletion. 
+**Doubly Linked List** - Requires more memory and is complex in implementation. Traversed both from front and back. Useful for searching.
+
+# Time Complexity
+prepend - O(1)
+append - O(1)
+lookup - O(n)
+insert - O(n)
+delete - O(n)
