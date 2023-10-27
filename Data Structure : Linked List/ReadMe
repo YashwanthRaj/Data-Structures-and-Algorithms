@@ -9,7 +9,7 @@ Here the nodes are linked to next value. Traversal possible in only one directio
 Here the nodes have two pointers, one points to the next and other points to the previous node. 
 This allows us to travel in our list backwards as well. Downside is it takes more space than singly Linked List.
 
-### Comparision
+### Comparison
 **Singly Linked List** - Used when memory is really scares. It implementation is simple. But if the pointer to head or node is lost, then the the data is lost in memory forever. Fast insertion and deletion. 
 **Doubly Linked List** - Requires more memory and is complex in implementation. Traversed both from front and back. Useful for searching.
 
