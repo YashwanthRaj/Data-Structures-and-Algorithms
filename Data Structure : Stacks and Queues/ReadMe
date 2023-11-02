@@ -1,0 +1,29 @@
+Stack and Queue are called linear data Structures. They allow us to go through data elements sequently. There is no random element access. We only execute commands like push and pop, commands with focus on elements at the beginning or the end. 
+
+### Stacks
+Follows LIFO, i.e Last In First Out.
+
+Time Complexity:
+lookup - O(n)
+pop - O(1)
+push - O(1)
+peek - O(1)
+
+**lookup** - Traverse through stack
+**pop** - Remove the first item.
+**push** - Add an item.
+**peek** - View the top most item.
+
+### Queues
+Follows FIFO - First In First Out.
+
+Time Complexity:
+lookup - O(n)
+pop - O(1)
+push - O(1)
+peek - O(1)
+
+**enqueue -** Add an element
+**dequeue -** Remove an element
+
+Stack and Queues are best for fast operation, fast peek and are Ordered. But they have a slow lookup speed. 
