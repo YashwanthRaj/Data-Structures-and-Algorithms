@@ -37,7 +37,6 @@ These questions are answered by Big O notations. It calculates how long a code a
 
 When we Talk about Big O and scalability, we are talking about how much the code will slow down when the input code gets bigger and bigger. The less it slows down, the better it is.  
 
-![n - input elements](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0cbbd51-b278-480c-b5ae-a8ddedc59569/eda3c2e8-1144-4ee5-a156-644b07ac2c3f/image.png)
 
 n - input elements
 
