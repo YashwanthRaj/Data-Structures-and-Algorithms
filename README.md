@@ -120,3 +120,9 @@ Data Structures
 Function Call
 
 Allocations
+
+# Chapter 2 : Data Structures
+
+A Data Structure is a collection of values. Algorithms are the steps or processes that we put into place in order to manipulate data structures. Programs = Data Structures + Algorithms.
+
+For the values stored in a data structure, it can have relations between each value and have some functions applied to them. Each data structure is specialized for its own purposes.
