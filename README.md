@@ -206,3 +206,59 @@ Slow Inserts
 Slow deletes
 
 Fixed size if we are using static arrays
+
+# Hash Tables
+
+In python they are called dictionaries, in javascript they are called objects. Stored in key value pairs. The key is used as an index of where to find the value in the memory. It will have a hash function which will take in key and give out the index for that value. Hash function is a function that generates an value of fixed length for any given input. We use it because it gives really fast data access. 
+
+insert O(1)
+
+lookup O(1)
+
+delete O(1)
+
+search O(1)
+
+When the hash function maps two values to same address location, its called collision. During collision, the Big O becomes O(n). 
+
+Inside a class in javascript, if the method has _ in front of it, it denotes that it is private property for the class and should not be used outside of class. 
+
+### Arrays vs Hash Tables
+
+Arrays are great when iterating, but slow in searching. Hash tables are good with searching and inserting in a particular location. But slow in iteration.
+
+**Arrays**
+
+search O(n)
+
+lookup O(1)
+
+push O(1)
+
+insert O(n)
+
+delete O(n)
+
+**Hash Tables**
+
+search O(n)
+
+lookup O(1)
+
+insert O(n)
+
+delete O(n)
+
+### Pros of Hash Table
+
+Fast Lookups [if there is no collision]
+
+Fast inserts
+
+Flexible keys
+
+### Cons of Hash Table
+
+Unordered 
+
+Slow Key Iteration.
