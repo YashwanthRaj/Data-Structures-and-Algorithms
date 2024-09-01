@@ -126,3 +126,83 @@ Allocations
 A Data Structure is a collection of values. Algorithms are the steps or processes that we put into place in order to manipulate data structures. Programs = Data Structures + Algorithms.
 
 For the values stored in a data structure, it can have relations between each value and have some functions applied to them. Each data structure is specialized for its own purposes.
+
+# Arrays
+
+This data Structure organizes elements sequentially, i.e one after another in memory. Because they are stored together in memory, they have the smallest footprint in memory. Most useful for iteration. 
+
+lookup - O(1)
+
+push - O(1)
+
+insert - O(n)
+
+delete - O(n)
+
+### Array Operations
+
+**push** - To add an element at the end of an array - O(1) as the computer knows the position of all elements in the array
+
+**pop** - To remove an element from the end of an array - O(1) as the computer knows the position of all elements in the array
+
+**unshift** - To add an element at the start of an array - O(n) as we have to iterate and move all the elements to the right and reassign the indexes. 
+
+splice - To add/delete an element from an array with a given position. - O(n) as we have to iterate through all the elements.  
+
+There are two types of arrays - Static and Dynamic. This concept is available in languages like C++. In languages like javascript and python, we have only dynamic array. 
+
+### Static Arrays
+
+The size of array is fixed, this means that we need to specify the size of array ahead of time. 
+
+lookup - O(1)
+
+push - O(1)
+
+insert - O(n)
+
+delete - O(n)
+
+### Dynamic Arrays
+
+In dynamic arrays, it can help us copy and rebuild an array to a new location with more memory if we wanted more. 
+
+lookup - O(1)
+
+append - O(1) - Can by O(n)
+
+insert - O(n)
+
+delete - O(n)
+
+Sometimes when there is no space in the array and we perform an append operation, the array will be iterated and shifted to a new location, hence resulting in O(n). 
+
+## Javascript Concepts
+
+### Objects
+
+Objects are whats called **reference types** in Javascript. Reference type, unlike the primitive type which is created by the javascript, is created by the programer. When we create an object, it points to a memory location. So if we create an object and store it in a variable, the variable will have a reference to the memory location and not the value. Hence when we create two objects with same value, when we check if they are equal, it will return false as even though it has same value, its pointing to different locations making it different. 
+
+**Context** gives us an idea of inside which object are we in the program. In javascript when we use *this* keyword, we can get the context. Usually it shows window when we are in regular code. But when we print *this* inside an object that we created, we will get the object name. 
+
+**Instantiation** is when we copy an object and reuse the code. We create instances or multiple copy of an object. We can create a main class and then using extend keyword we can create an instance of the parent class and use its properties. 
+
+### Strings
+
+Strings are just arrays of characters. To convert a string into array, use split(””) method on string and use functions of arrays. And if we have a array, we can use join(””) to make it into a string. 
+
+## Pros of Using an Array
+
+Fast Lookups
+
+Fast push / pop
+
+Ordered
+
+## Cons of Using an Array
+
+Slow Inserts
+
+Slow deletes
+
+Fixed size if we are using static arrays
