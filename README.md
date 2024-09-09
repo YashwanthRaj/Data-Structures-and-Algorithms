@@ -309,3 +309,61 @@ Flexible size
 Slow Lookup
 
 More Memory
+
+# Stacks and Queues
+
+These are linear data structures and do not have random element access. They mostly have operations like push and pop. 
+
+## Stacks
+
+Last In First Out (LIFO). Good in scenarios where we need to know what was the last element that was inserted. They have top and a bottom. 
+
+**Big Oh**
+
+lookup O(n)
+
+pop O(1)
+
+push O(1)
+
+peek O(1)
+
+## Queues
+
+First In First Out (FIFO). They have head and tail. 
+
+**Big Oh**
+
+lookup O(n)
+
+enqueue O(1)
+
+dequeue O(1)
+
+peek O(1)
+
+## How does javascript work ?
+
+In chrome, it has the V8 which is the javascript engine. The engine has two parts, memory heap and a call stack. The memory heap allocates memory and the call stack reads and executes the program. The memory leak happens when memory heap fails to release memory that is no longer needed and that results in taking up a lot of space. 
+
+**Javascript is a single threaded language that can be non blocking.** 
+
+Single threaded means that it has only one call stack, i.e it can only do one thing at a time. 
+
+Stack overflow happens when the call stack gets a lot of calls until there is no space in the call stack. 
+
+In synchronous programing, when one program runs and did not finish execution, then other programs have to wait until the first program finishes execution. This kind of scenario is called blocking. Javascript is non blocking. (asynchronous). The call stacks can run only one instruction at a time. It becomes asynchronous because of the callback functions. 
+
+In our javascript run time environment,  we have the regular javascript engine [Memory Heap, Call Stack], Web API, callback Queue, and Event  Loop. When we use set timeout function, we give it to web API. The Web API will give a callback after the timeout is completed. The event loop will regularly check the the call stack for any functions or items in it waiting for execution. If there are no elements there, then it will take the callback and put it inside the call stack. This is how timeout works. 
+
+### Pros of using Stacks and Queues
+
+Fast operations
+
+Fast Peek
+
+Ordered
+
+### Cons of using Stacks and Queues
+
+Slow Loopkup
