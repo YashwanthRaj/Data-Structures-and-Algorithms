@@ -262,3 +262,51 @@ Flexible keys
 Unordered 
 
 Slow Key Iteration.
+
+
+# Linked List
+
+In arrays, when we want to increase the memory of array, in memory the entire array is pasted into different location with more space after the length of the array. This is a time consuming process. Arrays are also not time consuming when it comes to inserting and deleting which requires shifting of indices. These problems were solved by hash tables but then they were not ordered. 
+
+Hence came the necessity to use Linked List. These are lists that point to next node/element in the list. The first node is called head and last node is called tail. The tail points to null. Linked List are called Null terminated. Pointer is a reference to another location in memory. 
+
+### Big Oh
+
+prepend  O(1)
+
+append  O(1)
+
+lookup  O(n)
+
+insert  O(n)
+
+delete  O(n)
+
+In Javascript is garbage collected which means that when there is a data in memory which has no pointer to it, those data will be deleted. 
+
+### Doubly Linked List
+
+Similar to singly linked list but each node has two pointers rather than one. One pointer will point to next node and other pointer will point to previous node. In this way two way traversal is possible. Here lookup can be better as if we know which half of linked list the element is present, then we can start form last element or first depending upon the length. 
+
+### Singly vs Doubly Linked List
+
+Singly has a simple implementation and as consumes less memory than doubly linked list. Due to this it takes lesser time in insert and delete operations.  But the downside is that we can only traverse in one direction and if we loose the reference to the head, then the linked list can be lost. Singly linked list is useful when memory is less, and main goal is fast insertion and deletion. 
+
+Doubly linked list can be iterated both sides. But it requires more memory and is fairly complex. Useful when we want to traverse from tail as well and memory is abundant. 
+
+## Linked List
+
+**Pros:**
+
+Fast Insertion
+
+Fast Deletion
+
+Ordered 
+
+Flexible size
+
+**Cons:**
+Slow Lookup
+
+More Memory
