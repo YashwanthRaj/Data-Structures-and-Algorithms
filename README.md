@@ -294,9 +294,7 @@ Singly has a simple implementation and as consumes less memory than doubly linke
 
 Doubly linked list can be iterated both sides. But it requires more memory and is fairly complex. Useful when we want to traverse from tail as well and memory is abundant. 
 
-## Linked List
-
-**Pros:**
+### **Pros of using Linked list:**
 
 Fast Insertion
 
@@ -306,7 +304,8 @@ Ordered
 
 Flexible size
 
-**Cons:**
+### **Cons of using Linked list:**
+
 Slow Lookup
 
 More Memory
