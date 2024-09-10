@@ -20,7 +20,7 @@ peek O(1)
 
 First In First Out (FIFO). They have head and tail. 
 
-**Big Oh**
+**Big O**
 
 lookup O(n)
 
