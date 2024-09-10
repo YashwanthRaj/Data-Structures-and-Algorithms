@@ -449,3 +449,33 @@ Slow Lookup
 ## Trie
 
 Specialized Tree used in searching. Used Exclusively for searching. It has a empty root node and can have many child nodes. Very useful with strings. Example usage are autocomplete in keyboards.
+
+# Graphs
+
+A set of values that are related in a pair wise fashion. Each vertex is called a node (Vertex). These nodes are connected with Edges. Graphs are ideal when we are dealing with things that connect to other things. In cases of locations, graphs are used to find the shortest path. 
+
+## Directed Graphs
+
+Has directions from one node to another. Used in traffic and other scenarios where direction of movement is necessary. And these are uni directional unless it has edges that direct both ways. 
+
+### Un Weighted
+
+The edges do not have weights. 
+
+### Weighted
+
+The edges have weights.
+
+## Un Directed Graphs
+
+Do not have any direction. They can go back and forth from nodes as there is no specified direction. 
+
+There are also **cyclic** and **acyclic** graph depending upon if the nodes are connected in such a way that they form a cycle i.e if you start from one node, you can travel to the same node in a closed system. 
+
+**Pros of Graph**
+
+Relationships
+
+**Cons of Graph**
+
+Scaling is hard
