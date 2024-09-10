@@ -1,0 +1,81 @@
+# Trees
+
+A tree starts with a single root node and continues with many child nodes. Every child node descends from a parent node. Then we have leaf nodes which are the very end of a data structure. 
+
+For example, the html file, the main html tag will have head and body as children. The head will have link etc and body will have h1, etc as children. 
+
+A Linked List is a type of tree, its linear which means there is only one way we can go. In trees the nodes doesn't have to reference their parent. 
+
+## Binary Tree
+
+In this type of tree, each parent node can have no more then two nodes as child, and each child can only have one parent. Each node represents a certain state. 
+
+**Perfect Binary Tree** - A Binary Tree which has all the nodes and leaf nodes present without any gaps. Here all the nodes have either 0 children or 2 children. And the bottom layer of the tree is completely full. Perfect Binary Tree are very efficient. They have two properties, 1) The number of nodes on each level doubles as we progress down. and 2) The number of nodes on the last level is equal to sum of number of all the nodes in previous levels plus one. In this type of tree, we can determine the number of nodes by knowing the level, number of nodes in this level can be calculated by ⇒ (2^h - 1) where h denotes level i.e log(num of nodes) = height. 
+
+**Full Binary Tree** - A Binary Tree which has all nodes with either 0 or 2 children.  
+
+### Binary Search Tree
+
+They are great for searching, i,e comparing things. All child nodes to the right must be greater than the current node i.e as we travel to the right of any node, the value of the child node increases. And as it is a part of Binary Tree, a node can have max of two children. We would prefer a balanced BST because unbalances tree is very inefficient and basically becomes a linked list. 
+
+**Big O**
+
+lookup - O(log N)
+
+insert - O(log N)
+
+delete - O(log N)
+
+**Pros of BST**
+
+Better then O(n)
+
+Ordered
+
+Flexible Size
+
+**Cos of BST**
+
+No O(1) operations
+
+Although we created BST, In production we will use AVL tree or Red Black Tree. These trees automatically balances itself. We use libraries in its code which will make it balanced. 
+
+## Heap
+
+In heap, the root node is the largest in max heap and smallest in min heap. Here every node on top level will have a greater value than ones on bottom level in max heap. 
+
+### Binary Heap
+
+In this heap, every node can have at most 2 children. 
+
+**Big O**
+
+lookup O(n)
+
+insert O(log N)
+
+delete O(log N)
+
+They do left to right insertion, they preserve order of insertion, so there is concept of unbalanced Binary Heap. They preserve order of insertion. 
+
+### Priority Queue
+
+A queue where elements have a priority. 
+
+**Pros of Priority Queue**
+
+Better than O(n)
+
+Priority
+
+Fast Insert
+
+Flexible size
+
+**Cons of Priority Queue**
+
+Slow Lookup
+
+## Trie
+
+Specialized Tree used in searching. Used Exclusively for searching. It has a empty root node and can have many child nodes. Very useful with strings. Example usage are autocomplete in keyboards.
