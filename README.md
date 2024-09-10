@@ -88,7 +88,7 @@ This concerns with the space that a program consumes. When we talk about space c
 
 When we look at program 7, the code in addition to creating a variable i for the loop, we are creating a data structure which is array, which we are filling in with data in the loop. Hence the space complexity of this program is O(n)
 
-## Big Oh Cheat Sheet
+## Big O Cheat Sheet
 
 **O(1)** Constant – no loops
 **O(log N)** Logarithmic – usually searching algorithms have log n if they are sorted (Binary Search)
@@ -270,7 +270,7 @@ In arrays, when we want to increase the memory of array, in memory the entire ar
 
 Hence came the necessity to use Linked List. These are lists that point to next node/element in the list. The first node is called head and last node is called tail. The tail points to null. Linked List are called Null terminated. Pointer is a reference to another location in memory. 
 
-### Big Oh
+### Big O
 
 prepend  O(1)
 
@@ -318,7 +318,7 @@ These are linear data structures and do not have random element access. They mos
 
 Last In First Out (LIFO). Good in scenarios where we need to know what was the last element that was inserted. They have top and a bottom. 
 
-**Big Oh**
+**Big O**
 
 lookup O(n)
 
@@ -332,7 +332,7 @@ peek O(1)
 
 First In First Out (FIFO). They have head and tail. 
 
-**Big Oh**
+**Big O**
 
 lookup O(n)
 
