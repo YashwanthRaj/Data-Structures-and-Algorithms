@@ -1,0 +1,43 @@
+# Sorting
+
+In javascript, the inbuilt sort method will convert all the characters and numbers in index 0 of every element and compare the character code of the elements. There are many sorting algorithms that we can build and use. 
+
+## Bubble Sort
+
+In bubble sort, we sort two elements at a time and go on till the end of the array. Now the last element is the largest in the array. Then we restart and continue till the second last element as the last element is already sorted (largest so at the end). 
+
+## Insertion Sort
+
+Useful when we know the list is almost sorted. We move through the array and pick each element and place it in accordance with the remaining elements that we have iterated over with. 
+
+## Selection Sort
+
+We will scan the entire array to find the smallest item and then swap it to the first index then we move on the array repeating the process until all the elements are sorted.
+
+All the above sorting algorithms had nested loops which means their Big O Time Complexity is O(n^2). Hence they cannot be considered as efficient. The below algorithms do it in O(n log n) time complexity. They use the divide and conquer technique. 
+
+## Merge Sort
+
+We divide the array into smaller divisions essentially to the point that there is only one element in the divided array. Now we keep on sorting and merging the divisions such that the final merged array will be sorted. 
+
+## Quick Sort
+
+We pick a random pivot element. Then we will rearrange in such a way that all the elements to the left of pivot are smaller than pivot and all the elements to the right are larger than pivot. Once this is achieved, then we know the exact position of 4 in this array. Now using divide and conquer, we split the list along the pivot and perform the same operation. 
+
+## When to use each algorithms ?
+
+**Insertion Sort** - Insertion sort should be used with only a few items if your input is small or items are mostly sorted. It uses very little space, and most importantly, it's really easy to implement in code.
+
+**Bubble Sort** -  To be honest, we will never going to use bubble sort. mIt's only really used for educational purposes as a way to teach sorting.
+
+**Selection Sort** - Its Big O complexiity aren't very good, so most likely we won't be using it. Mostly it's being used as a teaching mechanism.
+
+**Merge Sort** - We have o of n log n it's fast and because best average and worst case is always o of n log n, we always divide up the list evenly. We can always guarantee that this is going to be the case, which is not the case for most other algorithms. So if we're worried about worst case scenarios, you should use merge sort. But if we want to sort in memory on your machine and you're worried about space complexity, merge sort is going to be really expensive to use this space Complexity of O of n. However, if we had huge files that can be sorted in memory, so you have external sorting that we need, maybe like a process outside of memory, it's suitable for external sorting. Then merge sort is good because we won't care much as much about space complexity then.
+
+**Quick Sort** - QuickSort is actually better than Mercer rate, average case and space complexity.I mean, it has the same speed as time as merge sort but less space complexity.It's probably one of the most popular sorting algorithms, but the one downside is this worst case if we don't pick the pivot properly, we could have a really, really slow sorting.
+
+## Non Comparison Sort
+
+All the sorts we saw above are **comparison sorts** which means each element is compared with other elements to determine its position. There are Non Comparison sorts that does sorting differently. These type of sorts only works on numbers and that too in a closed range of numbers.  In some cases they are able to beat O (n log n).
+
+Examples - Counting sort and radix sort.
