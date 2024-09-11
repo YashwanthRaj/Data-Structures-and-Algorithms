@@ -1,0 +1,42 @@
+# Chapter 3 : Algorithms
+
+Algorithms are just functions that programmers write with help of data structures. Algorithms are simply steps in a process. 
+
+# Recursion
+
+A function which refers to itself inside the function. This method is good for tasks that has repeated sub tasks to do. Debugger in browser [javascript console] is used to know the status of code and were we are inside the code. We can also know the status of the call stack. We can know if the call stack has a lot of functions inside it causing stack overflow. We usually use recursion when we are dealing with data structures and we do not know how deep they are, hence we have no idea how many loops we need to go through. Hence we use recursion. 
+
+Every recursive function should have something called base case or stop function.  In a recursive function, if one functions returns something and then popped off the call stack, then other functions will not return anything or returns undefined. If we want that to happen, we can in recursive calls, we can return the function itself. 
+
+For every recursive function, we need to find
+
+1. Base Case - Where the function will end recursion
+2. Recursive Case - Here we get near to the final answer by making recursive calls.
+
+Getting closer we return what we needed. Usually we have two returns , one for the answer and other to return the function recursion so that the answer will be passed in the call stack and be given as the final answer. 
+
+**“ Anything we can do with a recursion CAN be done iteratively (through looping) “**
+
+We just have to decide which method will consume less time and use that one method. 
+
+**Pros of Recursion**
+
+DRY - Do not repeat yourself
+
+Reliability
+
+**Cons of Recursion**
+
+Large Stack - Get cases where we get stack overflow
+
+But in many languages including javascript, there is something called tail call optimization which will reduce the functions in call stack. 
+
+### When should we use recursion ?
+
+Every time you are using a tree or converting something into a tree, consider recursion. 
+
+1. Divide into smaller sub problems that are smaller instances of the same problem. 
+2. Each instance of the sub problem is identical in nature.
+3. The solution of each subproblem can be combined to solve the problem at hand. 
+
+Divide and conquer type of questions.
