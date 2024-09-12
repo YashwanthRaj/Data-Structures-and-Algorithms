@@ -616,3 +616,22 @@ More Memory
 BFS - Shortest path
 
 DFS - Check to see if it exist
+
+# Dynamic Programming
+
+Dynamic Programming is an optimization technique. 
+
+## Memoization
+
+Basically means caching, where we store information so that we can store it later on. Caching is used to speedup the programming. 
+
+Memoization is a specific form of caching where it will store a functions/programs return values. 
+
+**Dynamic Programming - Divide & Conquer + Memoization** 
+
+Steps that we see to conclude if a problem can be solved using dynamic programming
+
+1. Can be divided into sub Problem
+2. Recursive Solution
+3. Are there repetitive subproblems
+4. Memoize sub problems
