@@ -566,3 +566,53 @@ We pick a random pivot element. Then we will rearrange in such a way that all th
 All the sorts we saw above are **comparison sorts** which means each element is compared with other elements to determine its position. There are Non Comparison sorts that does sorting differently. These type of sorts only works on numbers and that too in a closed range of numbers.  In some cases they are able to beat O (n log n).
 
 Examples - Counting sort and radix sort.
+
+# Searching
+
+Searching for elements. Lets look at the types of search algorithms
+
+## Linear Search
+
+Go through all the elements and see if  a match is found. In the inbuilt javascript function indexOf which will return the index of the element inside the array follows linear search. 
+
+**Time complexity - O(n)**
+
+## Binary Search
+
+If our data is sorted, then we can do better then O(n). Using Binary search tree we can sort the elements and then perform search which is more efficient than linear search. We first select the middle element and then see if the element we want to find is greater than or less than the middle. We keep repeating this process i.e eliminating half the elements at each iteration. 
+
+**Time complexity - O(log n)** 
+
+We may have cases where we have to traverse through all the elements inside a graph/Tree. 
+
+## DFS
+
+Here we traverse to child nodes until its last level or if elements we need to find are found. When reached the bottom, it will return to nearest ancestor and continue down its unexplored children. Useful If we know that the node is at the lower level of the tree. Three different ways of implementing the DFS - Inorder, preorder, postorder. 
+
+**Pros:**
+
+Less Memory
+
+Good in answering the question, does path exist from one node to another. 
+
+**Cons:** 
+
+Can get slow
+
+## BFS
+
+Here we visit the first/root node, then we start to visit nodes from left to right. We cover nodes level by level. We keep going on until the tree ends or we found the node that we are looking for. It requires more memory than DFS. Helpful when we know if the node is in the upper level of the tree/graph. 
+
+**Pros:**
+
+Shortest Path
+
+Closer Node
+
+**Cons:** 
+
+More Memory
+
+BFS - Shortest path
+
+DFS - Check to see if it exist
