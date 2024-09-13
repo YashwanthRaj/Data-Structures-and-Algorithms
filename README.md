@@ -127,6 +127,8 @@ A Data Structure is a collection of values. Algorithms are the steps or processe
 
 For the values stored in a data structure, it can have relations between each value and have some functions applied to them. Each data structure is specialized for its own purposes.
 
+Data Structures Mind Map - https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link/c25f98c73a03f5b1107cd0e2f4bce29c9d78e31655e55cb0b785d56f0036c9d1
+
 # Arrays
 
 This data Structure organizes elements sequentially, i.e one after another in memory. Because they are stored together in memory, they have the smallest footprint in memory. Most useful for iteration. 
