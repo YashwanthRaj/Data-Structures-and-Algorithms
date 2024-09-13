@@ -633,6 +633,150 @@ Memoization is a specific form of caching where it will store a functions/progra
 
 Steps that we see to conclude if a problem can be solved using dynamic programming
 
+# Chapter 4 - Interview Prep
+
+## Getting More Interviews
+
+Job applications are number games. More we apply, more our chances are to get interview calls. 
+
+Things that we need to get ready :
+
+1. Resume
+2. LinkedIn
+3. Portfolio
+4. Email
+
+## Resume
+
+Should be one page only. Relevant skills to be included and is personalized according to requirement of job. Include key terms in Professional summary according to job description. Create a template for each type of job like SDE, Data Analyst, Business Analyst, UI/UX Design etc. Have online links for linkedIn, portfolio, github etc. 
+
+✅ Use a pre-designed resume template
+
+✅ Make the resume fit on 1 page
+
+✅ Include words from job description
+
+✅ Include company name you are applying to
+
+✅ Does your first item on your resume reflect what they are looking for?
+
+✅ Experience titles demonstrate value
+
+✅ Do you have an online link?
+
+✅ Remove the word “I”
+
+✅ No buzzwords describing how great you are
+
+✅ Are you using Action words?
+
+✅ Measure everything in terms of impact, don’t just describe your responsibilities
+
+✅ Technical Knowledge/Skills should include what they are looking for. Only show years if it is impressive
+
+✅ Include only sections/items that are impressive: Experience, Projects, Education, Technical Skills
+
+✅ No typos or bad grammar
+
+We can use websites like jobscan in which we can paste the contents of resume and job description and It will tell us how compatible is our resume to this job. 
+
+Some useful links:
+
+1. [**https://thisresumedoesnotexist.com**](https://thisresumedoesnotexist.com/)
+2. [**https://docs.rxresu.me/**](https://docs.rxresu.me/)
+3. [**https://www.open-resume.com/**](https://www.open-resume.com/)
+
+## LinkedIn
+
+Use similar content selection as for resume. Make a minor insignificant change to profile, this will show to recruiters that you have updated the profile recently and will make them check your profile. For the company that we want to apply, we will search the company name and then in employees, we will connect to employees/recruiters with mutual connections. In this way we will search for job and ask for referrals. 
+
+## Portfolio
+
+Showcase your work in a website. Do not spend too much time in it. 
+
+**Quick and efficient way of building a portfolio page**
+
+1. [HTML 5UP](https://html5up.net/) 
+2. https://www.free-css.com/template-categories/portfolio
+3. [https://cruip.com/](https://cruip.com/free-templates/)
+4. [Bootstrap Templates](https://mdbootstrap.com/freebies/)
+5. [Creative Tim Templates](https://www.creative-tim.com/bootstrap-themes/free)
+
+**no-code easy solution:**
+
+https://www.adobe.com/express/create/online-portfolio
+
+List of some really great portfolios [here](https://www.awwwards.com/websites/portfolio/).
+
+## Email
+
+Sample emails to send to recruiters:
+
+Hey $BOB,
+
+I saw your presentation at $CONFERENCE last year on Youtube (rr point to some work they have done). Great stuff; loved what you did with $FOO, in particular
+
+$COMMENT_PROVING_YOU_KNOW_WHAT_YOU'RE_TALKING_ABOUT.
+
+I'm also a $FOO developer. I noticed that your company is hiring or $ROLE. I’d love to be a part of your team. Do you have a few minutes to chat on Thursday about what you guys are doing?
+
+Thanks,
+
+Yourname
+
+Your website or any public profile link
+
+## **Where To Find Jobs?**
+
+Here is a list of my recommended resources for finding that dream job:
+
+**My Favourites:**
+
+[LinkedIn Jobs](https://www.linkedin.com/jobs/)
+
+[HackerNews Who is Hiring](https://google.com/search?q=hackernews+who%27s+hiring) (You will need to search for most recent month)
+
+[AngelList](https://angel.co/jobs)
+
+**Remote Jobs:**
+
+https://designmodo.com/jobs/
+
+https://weworkremotely.com/
+
+https://remoteok.io/
+
+**Others:**
+
+[Whitetruffle](https://whitetruffle.com/)
+
+[Zip Recruiter](https://www.ziprecruiter.com/)
+
+[Meetup.com](https://www.meetup.com/)
+
+### **Monthly Industry Updates**
+
+**Industry Monthlies:** Every month, I accumulate all of the best resources and articles, as well as free resources around the tech world. It gets read by 200,000+ developers. If you want to stay up to date with the industry and make sure you don't miss any important news, you can check out the monthly newsletters.
+
+- [**Web Developer Monthly**](https://zerotomastery.io/newsletters/web-development-monthly/)
+- [**AI & Machine Learning Monthly**](https://zerotomastery.io/newsletters/machine-learning-monthly/) (written by Daniel Bourke)
+- [**Python Monthly**](https://zerotomastery.io/newsletters/python-monthly/)
+
+## Tell me about yourself
+
+Your triggers of success
+
+Mention things you want to get asked
+
+Skills should be relevant to job
+
+Some other questions commonly asked in non technical interviews
+
+- Why us ?
+- Tell me about a problem you solved ?
+- Past Projects
+- Your weakness !
+- Any questions for us ?
 1. Can be divided into sub Problem
 2. Recursive Solution
 3. Are there repetitive subproblems
